@@ -1,0 +1,241 @@
+.login-form {
+    min-width: auto;
+    padding: 48px;
+    background-color: white;
+    border-radius: 5px;
+    width: 435px;
+    z-index: 2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-form {
+        min-width: auto;
+        padding: 32px;
+        width: 100%;
+    }
+}
+
+/* Smartphones (portrait and landscape) */
+
+@media only screen and (min-width: 600px) {
+    .login-form {
+        min-width: auto;
+        padding: 32px;
+        width: 100%;
+    }
+}
+
+
+/* iPads (portrait and landscape) */
+
+@media only screen and (min-width: 768px) {
+    .login-form {
+        padding: 48px;
+        background-color: white;
+        border-radius: 5px;
+        width: 435px;
+        z-index: 2;
+    }
+}
+
+
+/* Desktops and laptops */
+
+@media only screen and (min-width: 992px) {
+    .login-form {
+        padding: 48px;
+        background-color: white;
+        border-radius: 5px;
+        width: 435px;
+        z-index: 2;
+    }
+}
+
+
+/* Large screens */
+
+@media only screen and (min-width: 1200px) {
+    .login-form {
+        padding: 48px;
+        background-color: white;
+        border-radius: 5px;
+        width: 435px;
+        z-index: 2;
+    }
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* padding-right: 0;
+    padding-left: 0; */
+}
+
+main {
+    flex: 1 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-color {
+    background-color: #801010;
+}
+
+.img-logo {
+    height: 100px;
+    max-width: 100%;
+    vertical-align: unset;
+}
+
+.btn-color {
+    background-color: #801010;
+    color: white;
+    padding: 10px;
+    border: 1px solid #801010;
+    border-radius: 5px;
+}
+
+.btn-back{
+    color: #801010;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #801010;
+    border-radius: 5px;
+}
+
+.btn-color:hover {
+    background-color: #aa081d;
+}
+
+.signup-text {
+    color: #801010;
+    text-decoration: none;
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+.box-login {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 16px;
+    color: #4f575e;
+    margin-bottom: 0;
+}
+
+.fields {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.form-check-input {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #bdc5c7;
+    border-radius: 3px;
+}
+
+.form-check-input:checked {
+    background-color: #801010;
+    border-color: #801010;
+}
+
+.label-check {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.top-margin {
+    margin-top: 16px;
+}
+
+.x-top-margin {
+    margin-top: 32px;
+}
+
+.s-top-margin {
+    margin-top: 5px;
+}
+
+.box-forgot {
+    padding-top: 5px;
+}
+
+.txt-forgot {
+    float: right;
+}
+
+.row-bot {
+    font-size: 14px;
+}
+
+
+/* Animated input */
+.block-label{
+    display: inline;
+}
+
+.animated-label{
+    position: relative;
+}
+
+.animated-label-text{
+    color: #4f575e;
+    font-size: 14px;
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+.label-input{
+    display: block;
+    width: 100%;
+}
+
+.animated-label.active .animated-label-text{
+    font-size: 12px;
+    top: -10px;
+}
+
+.animated-label-input input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    padding: 0;
+    transition: all 100ms ease-in-out;
+    height: 40px;
+    color: #272b30;
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+}
+
+.animated-label-input input:focus{
+    outline: none;
+    border-bottom: 1px solid #1068eb;
+    transition: all 100ms ease-in-out;
+}
