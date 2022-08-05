@@ -36,5 +36,5 @@ confirmPasswordInput.onblur = () => {
 }
 
 document.getElementById("voltar").onclick = () => {
-    location.href = "./index.html";
+    location.href = "./index.php";
 }

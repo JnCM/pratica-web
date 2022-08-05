@@ -22,3 +22,17 @@ passwordInput.onblur = () => {
         divPassword.classList.remove("active");
     }
 }
+
+document.forms["form_login"].addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const resp = await fetch(event.target.action, {
+      method: "POST",
+      body: new URLSearchParams(new FormData(event.target)),
+    });
+    const body = await resp.json();
+    if(body.error === 1){
+        alert(body.msg);
+    }else{
+        location.href = "home.php";
+    }
+});

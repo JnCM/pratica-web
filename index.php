@@ -14,7 +14,7 @@
 
     <body class="body-color">
         <div class="container-fluid box-login">
-            <form id="form_login" name="form_login" action="" enctype="multipart/form-data" method="POST" class="login-form">
+            <form id="form_login" name="form_login" action="signin.php" enctype="multipart/form-data" method="POST" class="login-form">
                 <div class="text-center">
                     <div class="text-center">
                         <img src="src/View/img/favicon.png" class="img-logo" alt="icon">
@@ -70,7 +70,7 @@
                     <button type="submit" id="login" class="btn-color mb-3 w-100 fw-bold">Login</button>
                 </div>
                 <div class="form-text text-center text-dark">
-                    Não possui uma conta? <a href="./newuser.html" class="signup-text"> Cadastre-se</a>
+                    Não possui uma conta? <a href="./newuser.php" class="signup-text"> Cadastre-se</a>
                 </div>
             </form>
         </div>
